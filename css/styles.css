@@ -64,3 +64,24 @@ img {
 #gallery .column img {
     margin-top: 8px;
 }
+
+
+
+
+
+
+/* MEDIA QUERIES - RDW */
+
+/* TABLET */
+@media screen and (max-width: 800px) {
+    #gallery .column {
+        flex: 50%;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 565px) {
+    #gallery .column {
+        flex: 100%;
+    }
+}
